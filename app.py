@@ -12,6 +12,15 @@ class DigitRecognizerApp:
         master.title("Digit Recognizer 3000")
         master.geometry("350x400")  # Fixed window size
 
+        # Styling
+        master.configure(bg="#f0f0f0")  # Light gray background
+
+        style = ttk.Style()
+        style.theme_use("clam")  # Modern theme
+        style.configure("TButton", padding=6, font=("Helvetica", 12), background="#e0e0e0") # Button style
+        style.configure("TLabel", font=("Helvetica", 14), background="#f0f0f0") # Label style
+
+
         # Load the trained model
         self.model = keras.models.load_model("mnist_cnn.keras")
 
