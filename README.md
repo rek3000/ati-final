@@ -31,13 +31,8 @@ This project implements a simple digit recognition application using TensorFlow/
 3.  **Install dependencies:**
 
     ```bash
-    pip install tensorflow-cpu Pillow opencv-python tk awthemes
+    pip install -r requirements.txt
     ```
-
-    *   `tensorflow-cpu`: For running the model on the CPU.  If you have a compatible NVIDIA GPU and CUDA installed, you can use `tensorflow` instead for GPU acceleration.
-    *   `Pillow`: For image manipulation.
-    *   `opencv-python`: For image processing, specifically adaptive thresholding in this application.
-    *   `tk`: Tkinter, the standard Python GUI framework.
 
 ### 3. Training the model
 
