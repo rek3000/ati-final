@@ -70,12 +70,14 @@ This project implements a simple digit recognition application using TensorFlow/
 3.  **Clearing:** Click the "Clear" button to erase the canvas and start drawing a new digit.
 
 ## Project Structure
+```
 Digit-Recognizer/
 ├── app.py        # The main application script (Tkinter GUI)
 ├── train.py      # The model training script
 ├── mnist_cnn.keras # The trained model file (saved by train.py)
 ├── venv/         # The virtual environment (if you created one)
 └── README.md     # This file
+```
 
 ## Model Details
 
